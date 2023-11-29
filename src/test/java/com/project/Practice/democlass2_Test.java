@@ -4,12 +4,12 @@ import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 public class democlass2_Test {
-	@Test
+	@Test(groups="Regression")
 	public void test21() {
-		Reporter.log("--test1--", true);
+		Reporter.log("--Regression2--", true);
 	}
 	@Test(groups = "Smoke")
 	public void test22() {
-		Reporter.log("--test2--", true);
+		Reporter.log("--Smoke2--", true);
 	}
 }
