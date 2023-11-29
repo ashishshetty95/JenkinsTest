@@ -3,13 +3,13 @@
 <suite name="Suite">
 	<groups>
 		<run>
-			<include name="smoke"></include>
+			<include name="Smoke"></include>
 		</run>
 	</groups>
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.project.Practice.democlass2test"/>
-      <class name="com.project.Practice.demoClass1test"/>
+      <class name="com.project.Practice.democlass2_Test"/>
+      <class name="com.project.Practice.demoClass1_Test"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
