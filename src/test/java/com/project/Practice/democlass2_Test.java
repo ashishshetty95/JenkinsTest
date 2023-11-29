@@ -11,5 +11,6 @@ public class democlass2_Test {
 	@Test(groups = "Smoke")
 	public void test22() {
 		Reporter.log("--Smoke2--", true);
+		
 	}
 }
