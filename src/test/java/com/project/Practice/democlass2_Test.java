@@ -8,7 +8,7 @@ public class democlass2_Test {
 	public void test21() {
 		Reporter.log("--test1--", true);
 	}
-	@Test
+	@Test(groups = "Smoke")
 	public void test22() {
 		Reporter.log("--test2--", true);
 	}

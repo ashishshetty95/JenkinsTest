@@ -4,7 +4,7 @@ import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 public class demoClass1_Test {
-	@Test
+	@Test(groups = "Smoke")
 	public void test21() {
 		Reporter.log("--test1--", true);
 	}
