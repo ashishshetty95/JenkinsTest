@@ -70,7 +70,6 @@
         <version>3.2.2</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>group.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
