@@ -12,8 +12,8 @@ public class demoClass1_Test {
 	public WebDriver driver;
 	@Test(groups = "Smoke")
 	public void test21() {
-		String BROWSER=System.getProperty("browser");
-		String URL=System.getProperty("url");
+		String BROWSER=System.getProperty("b");
+		String URL=System.getProperty("u");
 		if (BROWSER.equalsIgnoreCase("chrome")) {
 			driver=new ChromeDriver();
 		}
